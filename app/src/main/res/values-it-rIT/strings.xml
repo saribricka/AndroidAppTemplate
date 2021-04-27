@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Viaggiando</string>
+    <string name="search">Ricerca</string>
+    <string name="settings">Impostazioni</string>
+    <string name="image_of_the_place">Immagine del luogo</string>
+    <string name="place_title">Nome del luogo</string>
+    <string name="date">Data</string>
+    <string name="place_description">Descrizione del luogo</string>
+    <string name="take_picture">scatta una foto</string>
+    <string name="image_taken">foto acquisita</string>
+    <string name="take_gps_position">prendi la posizione gps</string>
+    <string name="share">condividi</string>
+    <string name="username">username</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="search">Search</string>
+    <string name="app_name">Travels</string>
+    <string name="settings">settings</string>
+    <string name="image_of_the_place">Image of the place</string>
+    <string name="place_title">Place Title</string>
+    <string name="date">Date</string>
+    <string name="place_description">Place Description</string>
+    <string name="take_picture">take a picture</string>
+    <string name="image_taken">image taken</string>
+    <string name="take_gps_position">take gps position</string>
+    <string name="share">share</string>
+    <string name="username">username</string>
+</resources>
