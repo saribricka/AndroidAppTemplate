@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <include layout="@layout/topbar"/>
-
     <include layout="@layout/fab_add"/>
 
     <ScrollView
@@ -33,7 +31,8 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/placeTextInputEditText"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <ImageButton
@@ -64,7 +63,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="date" />
+                    android:inputType="date"
+                    android:id="@+id/dateTextInputEditText"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,7 +83,8 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:id="@+id/descriptionTextInputEditText"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 

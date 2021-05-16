@@ -1,6 +1,7 @@
 package com.example.template;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -12,6 +13,19 @@ public class Utilities {
 
         transaction.replace(R.id.fragment_container_view, fragment, tag);
 
+        if (!(fragment instanceof HomeFragment) && !(fragment instanceof SettingsFragment)) {
+            transaction.addToBackStack(tag);
+        }
+
         transaction.commit();
+    }
+
+    static void setupToolbar(AppCompatActivity activity, String title) {
+        Toolbar toolbar = activity.findViewById(R.id.topBar);
+        toolbar.setTitle(title);
+
+        if (activity.getSupportActionBar() == null) {
+            activity.setSupportActionBar(toolbar);
+        }
     }
 }
